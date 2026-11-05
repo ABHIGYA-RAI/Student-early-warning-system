@@ -1,0 +1,1 @@
+The final_result has four distinct classes : Pass, Fail, Distinction and Withdrawn.
