@@ -8,3 +8,5 @@ Distinction     3024
 
 
 It is crazy that the number of dropout students are almost equal to the passed students. The dropouts are also way more than the failed students.
+
+A new column has been added to student_info that seperates the dropouts (1) from non-dropouts (0).
