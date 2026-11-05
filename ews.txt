@@ -1,1 +1,10 @@
 The final_result has four distinct classes : Pass, Fail, Distinction and Withdrawn.
+
+final_result
+Pass           12361
+Withdrawn      10156
+Fail            7052
+Distinction     3024
+
+
+It is crazy that the number of dropout students are almost equal to the passed students. The dropouts are also way more than the failed students.
