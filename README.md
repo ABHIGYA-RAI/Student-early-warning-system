@@ -217,14 +217,4 @@ Install them from `requirements.txt`. The code will otherwise skip the unavailab
 ### No real OULAD data
 Use `python main.py smoke` first. This validates the package using the synthetic sample data.
 
-## 11. Suggested thesis integration
 
-Use the outputs from:
-
-- `outputs/tables/performance_summary.csv`
-- `outputs/tables/fairness_summary.csv`
-- `outputs/tables/calibration_summary.csv`
-- `outputs/figures/reliability_diagram.png`
-- `outputs/figures/subgroup_fnr_gap.png`
-
-to populate Chapter 4 and the appendices.
