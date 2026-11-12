@@ -1,47 +1,230 @@
-# Student Early-Warning System: Fair and Calibrated Dropout Prediction
+# Fair and Calibrated Early-Warning Models for Student Dropout Prediction
 
-An early-warning system that predicts which students will withdraw from a course, built on the Open University Learning Analytics Dataset (OULAD). The project asks more than "which model ranks students best?" It asks whether the predicted probabilities can be trusted and whether the model's errors are spread fairly across student groups.
+This repository provides a reproducible implementation package for the thesis:
 
-> **Status: work in progress.** The cohort definition and the static-feature baseline are done. Temporal features, calibration and fairness analysis are in progress.
+**Fair and Calibrated Early-Warning Models for Student Dropout Prediction Using Temporal Learning Analytics Data**
 
-## Research questions
+The code is designed for the **Open University Learning Analytics Dataset (OULAD)** and supports:
 
-1. Which baseline and temporal models perform best for early dropout prediction on OULAD?
-2. Are the predicted probabilities well calibrated, overall and within subgroups?
-3. Can calibration and fairness-aware methods improve decision quality without a large loss in performance?
+- OULAD-style multi-table ingestion
+- non-temporal feature engineering
+- weekly temporal snapshot generation
+- baseline training with Logistic Regression, XGBoost, and CatBoost
+- a lightweight temporal transformer baseline in PyTorch
+- a discrete-time survival-style hazard baseline
+- calibration with Platt scaling and isotonic regression
+- fairness auditing by subgroup
+- fairness-aware sample reweighing
+- publication-style visualizations
+- a synthetic OULAD-like sample dataset for smoke testing
 
-## Problem definition
+## 1. Project structure
 
-- **Outcome:** `dropout = 1` if `final_result == "Withdrawn"`, otherwise `0` (Pass, Fail and Distinction all count as 0).
-- **Prediction point:** day 28 (end of week 4). Only students still enrolled at day 28 are included, so the model never predicts students who had already left.
-- **Split:** chronological. Train on presentations 2013B, 2013J and 2014B; test on 2014J. This avoids using future cohorts to predict past ones.
-- **Protected attributes:** `gender`, `disability` and `age_band` are **not** used as model inputs. They are kept only to audit fairness.
+```text
+fair_dropout_package/
+├── README.md
+├── requirements.txt
+├── environment.yml
+├── .gitignore
+├── Dockerfile
+├── main.py
+├── config/
+│   └── config.yaml
+├── data/
+│   └── sample_oulad/
+├── notebooks/
+│   └── 01_pipeline_walkthrough.ipynb
+├── outputs/
+├── src/
+│   ├── __init__.py
+│   ├── utils.py
+│   ├── data_loading.py
+│   ├── synthetic_data.py
+│   ├── feature_engineering.py
+│   ├── fairness.py
+│   ├── calibration.py
+│   ├── models.py
+│   ├── temporal_model.py
+│   ├── survival_baseline.py
+│   ├── evaluation.py
+│   └── visualization.py
+└── tests/
+    └── test_smoke.py
+```
 
+## 2. Supported data modes
 
+### A. Real OULAD
+Place the official OULAD CSV files in a folder such as:
 
-## Roadmap
+```text
+data/raw/oulad/
+├── courses.csv
+├── assessments.csv
+├── studentAssessment.csv
+├── studentInfo.csv
+├── studentRegistration.csv
+├── studentVle.csv
+└── vle.csv
+```
 
-- [x] Load and inspect `studentInfo.csv`, define the dropout outcome
-- [x] Fix the day-28 cohort and chronological split
-- [x] Train a static-feature baseline and save test predictions
-- [ ] Full evaluation: precision, recall, F1, ROC-AUC, PR-AUC
-- [ ] Weekly VLE activity features from `studentVle.csv` (strictly before the cutoff)
-- [ ] Boosted-tree model (XGBoost or CatBoost) and discrete-time survival model
-- [ ] Calibration: reliability curves, Brier score, ECE, post-hoc calibration (Platt / isotonic)
-- [ ] Fairness audit: TPR, FPR and calibration gaps by gender, disability and age band, with group sizes
-- [ ] Mitigation: reweighing and group-specific thresholds
+Then point `data_dir` in `config/config.yaml` to that path.
 
-## Repository contents
+### B. Smoke test
+Use the bundled synthetic OULAD-like data in `data/sample_oulad/`. This is included only to verify that the pipeline runs end to end without requiring internet access.
 
-| File | Description |
-|---|---|
-| `Dataset.ipynb` | Data loading and inspection notebook |
-| `baseline_predictions.csv` | Test-set predictions from the baseline (outcome, probability, group labels) |
-| `cohort_day28.csv` | Cleaned cohort of students enrolled at day 28 |
+## 3. Quick start
 
+Create the environment:
 
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
 
-## Tech stack
+Run the smoke test:
 
-Python, pandas, scikit-learn, Jupyter Notebook (Anaconda), Git/GitHub. Planned: XGBoost or CatBoost, matplotlib.
+```bash
+python main.py smoke
+```
 
+Run the full non-temporal pipeline on real OULAD:
+
+```bash
+python main.py prepare --config config/config.yaml
+python main.py train_non_temporal --config config/config.yaml
+python main.py calibrate --config config/config.yaml
+python main.py evaluate --config config/config.yaml
+python main.py report --config config/config.yaml
+```
+
+Run the temporal transformer baseline:
+
+```bash
+python main.py train_temporal --config config/config.yaml
+```
+
+Run the survival-style baseline:
+
+```bash
+python main.py train_survival --config config/config.yaml
+```
+
+## 4. Main outputs
+
+After execution, the package writes:
+
+```text
+outputs/
+├── features/
+│   ├── non_temporal_train.csv
+│   ├── non_temporal_valid.csv
+│   ├── non_temporal_test.csv
+│   ├── temporal_train.parquet
+│   ├── temporal_valid.parquet
+│   └── temporal_test.parquet
+├── models/
+│   ├── xgboost.joblib
+│   ├── catboost.cbm
+│   ├── logistic.joblib
+│   ├── temporal_transformer.pt
+│   └── survival_logit.joblib
+├── predictions/
+│   ├── *_valid_predictions.csv
+│   ├── *_test_predictions.csv
+│   └── *_calibrated_predictions.csv
+├── tables/
+│   ├── performance_summary.csv
+│   ├── fairness_summary.csv
+│   ├── subgroup_metrics.csv
+│   └── calibration_summary.csv
+└── figures/
+    ├── roc_curve.png
+    ├── precision_recall_curve.png
+    ├── reliability_diagram.png
+    ├── subgroup_fnr_gap.png
+    └── model_comparison.png
+```
+
+## 5. Real-study execution order
+
+1. Acquire the official OULAD CSV files from the Open University or UCI.
+2. Put the files into `data/raw/oulad/`.
+3. Update `config/config.yaml`.
+4. Run `prepare`.
+5. Run `train_non_temporal`, `train_temporal`, and `train_survival`.
+6. Run `calibrate`.
+7. Run `evaluate`.
+8. Run `report`.
+9. Insert the generated tables and figures into the thesis.
+
+## 6. Fairness metrics implemented
+
+The package reports, overall and by subgroup:
+
+- AUROC
+- PR-AUC
+- Brier score
+- Expected calibration error (ECE)
+- Accuracy
+- Precision
+- Recall
+- F1 score
+- False negative rate (FNR)
+- False positive rate (FPR)
+- selection rate
+
+The package also computes group gaps such as:
+
+- max FNR gap
+- max FPR gap
+- max selection-rate gap
+- demographic parity difference proxy
+- equal opportunity difference proxy
+
+## 7. Fairness-aware intervention included
+
+The package includes **Kamiran-Calders reweighing** for training-set sample weighting. This is a lightweight, reproducible fairness-aware intervention that works across model families. It is supported in the logistic, XGBoost, and CatBoost pipelines.
+
+## 8. Calibration interventions included
+
+Two post-hoc calibration approaches are implemented:
+
+- Platt scaling
+- isotonic regression
+
+These are fitted on the validation set and applied to the held-out test set.
+
+## 9. Reproducibility controls
+
+- fixed random seeds
+- deterministic train/validation/test splitting by presentation
+- config-driven experiment setup
+- saved model artifacts
+- saved predictions
+- smoke-test dataset
+- test script
+
+## 10. Common issues
+
+### `fairlearn` is not installed
+This package does not require Fairlearn to run. Fairness metrics and reweighing are implemented locally. You may optionally install Fairlearn for extended audits.
+
+### `catboost` or `xgboost` missing
+Install them from `requirements.txt`. The code will otherwise skip the unavailable model and continue with the remaining baselines.
+
+### No real OULAD data
+Use `python main.py smoke` first. This validates the package using the synthetic sample data.
+
+## 11. Suggested thesis integration
+
+Use the outputs from:
+
+- `outputs/tables/performance_summary.csv`
+- `outputs/tables/fairness_summary.csv`
+- `outputs/tables/calibration_summary.csv`
+- `outputs/figures/reliability_diagram.png`
+- `outputs/figures/subgroup_fnr_gap.png`
+
+to populate Chapter 4 and the appendices.
