@@ -43,5 +43,5 @@ An early-warning system that predicts which students will withdraw from a course
 
 ## Tech stack
 
-Python, pandas, scikit-learn, Jupyter Notebook (Anaconda), Git/GitHub. Planned: XGBoost or CatBoost, matplotlib, and a fairness toolkit such as Fairlearn.
+Python, pandas, scikit-learn, Jupyter Notebook (Anaconda), Git/GitHub. Planned: XGBoost or CatBoost, matplotlib.
 
