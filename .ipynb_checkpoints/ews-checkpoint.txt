@@ -1,0 +1,20 @@
+The final_result has four distinct classes : Pass, Fail, Distinction and Withdrawn.
+
+final_result
+Pass           12361
+Withdrawn      10156
+Fail            7052
+Distinction     3024
+
+
+It is crazy that the number of dropout students are almost equal to the passed students. The dropouts are also way more than the failed students.
+
+A new column has been added to student_info that seperates the dropouts (1) from non-dropouts (0).
+
+Out of 30,000+ students, 5000 of them left before reaching the 4th week. 
+Rest of the 27,000 will be the sample population or study cohort.
+From the cohort, 18% will leave after 4th week.
+LR is the baseline that uses static information. Trained on three earlier course runs and tested on the recent course (2014 J).
+It's AUC-ROC score comes 0.64 which is to be beaten by temporal features which will be the evidence of the answer for Research Question 1.
+Two files : baseline_predicitons.csv has the actual outcome of the test students and the probability of withdrawal given by the baseline.
+cohort_day28.csv
