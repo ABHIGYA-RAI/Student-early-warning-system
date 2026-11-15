@@ -1,2 +1,6 @@
 In this project, PyTorch, NumPy, CatBoost, XGBoost and Pandas will be used. 
 They are to be installed from the Windows Command Prompt.
+
+A smoke test is done in a small sample OULAD data instead of the real and huge OULAD dataset to check if the code and isntalled dependencies will 
+work or not.
+
