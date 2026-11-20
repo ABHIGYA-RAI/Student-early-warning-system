@@ -1,0 +1,481 @@
+code_module,code_presentation,id_student,gender,region,highest_education,imd_band,age_band,num_of_prev_attempts,studied_credits,disability,final_result
+CCC,2013B,100000,F,Region_3,A Level or Equivalent,10-20,0-35,1,60,N,Withdrawn
+DDD,2014J,100001,M,Region_3,No Formal quals,0-10%,0-35,0,30,Y,Withdrawn
+AAA,2014B,100002,F,Region_3,HE Qualification,40-50%,0-35,3,60,N,Fail
+DDD,2014B,100003,M,Region_3,A Level or Equivalent,30-40%,35-55,0,90,N,Pass
+AAA,2013J,100004,M,Region_7,Lower Than A Level,50-60%,0-35,1,60,N,Withdrawn
+DDD,2013B,100005,M,Region_4,A Level or Equivalent,80-90%,0-35,2,30,N,Fail
+AAA,2014J,100006,M,Region_7,A Level or Equivalent,0-10%,35-55,3,60,N,Fail
+AAA,2014J,100007,M,Region_2,Post Graduate Qualification,10-20,0-35,2,60,N,Distinction
+CCC,2014B,100008,M,Region_6,Post Graduate Qualification,0-10%,0-35,3,120,N,Pass
+BBB,2014B,100009,F,Region_7,No Formal quals,10-20,0-35,0,90,N,Pass
+BBB,2014J,100010,M,Region_3,HE Qualification,30-40%,0-35,2,90,N,Pass
+AAA,2013J,100011,M,Region_4,A Level or Equivalent,20-30%,0-35,1,30,N,Withdrawn
+AAA,2013J,100012,M,Region_5,Lower Than A Level,30-40%,55<=,0,90,N,Pass
+CCC,2014B,100013,F,Region_4,Post Graduate Qualification,30-40%,0-35,3,60,N,Pass
+BBB,2014B,100014,M,Region_7,HE Qualification,70-80%,35-55,2,60,N,Pass
+DDD,2014J,100015,F,Region_3,A Level or Equivalent,30-40%,0-35,0,60,N,Pass
+AAA,2014J,100016,M,Region_7,Post Graduate Qualification,40-50%,35-55,2,60,N,Fail
+DDD,2013J,100017,F,Region_6,A Level or Equivalent,10-20,0-35,1,60,N,Distinction
+CCC,2014B,100018,F,Region_4,A Level or Equivalent,40-50%,35-55,3,60,N,Withdrawn
+DDD,2014B,100019,M,Region_1,Lower Than A Level,40-50%,55<=,3,60,N,Pass
+BBB,2014B,100020,M,Region_1,Lower Than A Level,80-90%,0-35,1,30,N,Pass
+DDD,2013B,100021,F,Region_4,HE Qualification,20-30%,0-35,0,60,N,Pass
+DDD,2014B,100022,F,Region_3,HE Qualification,80-90%,0-35,3,90,N,Distinction
+AAA,2014B,100023,M,Region_7,HE Qualification,50-60%,0-35,0,120,N,Withdrawn
+BBB,2013J,100024,M,Region_1,Lower Than A Level,20-30%,35-55,3,60,Y,Pass
+DDD,2014B,100025,M,Region_5,A Level or Equivalent,20-30%,0-35,0,60,N,Fail
+AAA,2014J,100026,F,Region_2,HE Qualification,0-10%,0-35,2,120,N,Fail
+CCC,2013B,100027,F,Region_1,HE Qualification,70-80%,0-35,3,60,N,Pass
+BBB,2013B,100028,F,Region_6,HE Qualification,90-100%,35-55,1,60,N,Pass
+AAA,2013B,100029,F,Region_5,Post Graduate Qualification,10-20,0-35,1,60,N,Pass
+CCC,2013J,100030,F,Region_6,No Formal quals,50-60%,0-35,1,120,N,Pass
+DDD,2013J,100031,F,Region_3,HE Qualification,50-60%,0-35,2,60,N,Distinction
+CCC,2014B,100032,M,Region_3,A Level or Equivalent,90-100%,0-35,0,60,Y,Distinction
+AAA,2014J,100033,M,Region_1,A Level or Equivalent,20-30%,0-35,0,120,N,Pass
+BBB,2013B,100034,M,Region_3,HE Qualification,90-100%,35-55,0,30,N,Pass
+CCC,2014J,100035,F,Region_7,HE Qualification,0-10%,0-35,0,90,N,Pass
+AAA,2013J,100036,F,Region_2,A Level or Equivalent,90-100%,0-35,1,90,N,Pass
+DDD,2013J,100037,M,Region_1,HE Qualification,20-30%,0-35,0,90,N,Fail
+AAA,2014J,100038,M,Region_2,Post Graduate Qualification,40-50%,35-55,1,90,N,Pass
+DDD,2014B,100039,F,Region_5,No Formal quals,50-60%,0-35,3,60,N,Fail
+CCC,2014B,100040,F,Region_7,HE Qualification,90-100%,0-35,1,60,N,Distinction
+BBB,2013B,100041,F,Region_7,No Formal quals,30-40%,0-35,3,60,N,Pass
+DDD,2014J,100042,M,Region_2,HE Qualification,40-50%,55<=,3,90,N,Withdrawn
+BBB,2013B,100043,M,Region_2,HE Qualification,40-50%,0-35,0,60,N,Pass
+DDD,2014B,100044,M,Region_7,A Level or Equivalent,90-100%,55<=,1,60,N,Distinction
+DDD,2014B,100045,F,Region_4,HE Qualification,90-100%,35-55,1,30,N,Pass
+CCC,2014J,100046,F,Region_7,HE Qualification,50-60%,0-35,2,60,N,Pass
+BBB,2013B,100047,M,Region_3,HE Qualification,90-100%,0-35,0,60,N,Withdrawn
+CCC,2013J,100048,F,Region_6,HE Qualification,80-90%,35-55,1,60,N,Pass
+AAA,2014B,100049,F,Region_2,HE Qualification,30-40%,0-35,0,120,N,Pass
+DDD,2013B,100050,M,Region_4,HE Qualification,60-70%,0-35,2,60,N,Pass
+AAA,2013J,100051,M,Region_5,A Level or Equivalent,70-80%,0-35,3,30,Y,Pass
+CCC,2014B,100052,M,Region_3,A Level or Equivalent,10-20,0-35,2,120,N,Fail
+CCC,2014B,100053,M,Region_3,A Level or Equivalent,80-90%,35-55,1,60,Y,Pass
+DDD,2014B,100054,M,Region_3,A Level or Equivalent,10-20,0-35,2,30,Y,Pass
+DDD,2013B,100055,F,Region_5,Lower Than A Level,50-60%,0-35,2,90,N,Withdrawn
+AAA,2014J,100056,M,Region_6,A Level or Equivalent,40-50%,0-35,2,30,N,Pass
+CCC,2014B,100057,M,Region_2,HE Qualification,40-50%,0-35,3,60,N,Pass
+DDD,2014B,100058,F,Region_5,Lower Than A Level,10-20,0-35,2,60,N,Pass
+BBB,2013J,100059,F,Region_2,No Formal quals,50-60%,0-35,3,90,N,Pass
+BBB,2013B,100060,M,Region_7,HE Qualification,50-60%,0-35,0,120,N,Pass
+BBB,2013B,100061,M,Region_6,HE Qualification,80-90%,0-35,0,60,N,Pass
+BBB,2013J,100062,M,Region_4,HE Qualification,10-20,0-35,2,30,N,Pass
+CCC,2014J,100063,M,Region_4,Lower Than A Level,70-80%,0-35,3,90,N,Pass
+AAA,2014J,100064,F,Region_7,Post Graduate Qualification,40-50%,0-35,2,30,N,Withdrawn
+AAA,2014J,100065,F,Region_7,A Level or Equivalent,20-30%,35-55,0,60,N,Withdrawn
+DDD,2014J,100066,F,Region_4,Lower Than A Level,90-100%,0-35,2,60,N,Withdrawn
+DDD,2013B,100067,F,Region_6,A Level or Equivalent,50-60%,0-35,0,90,N,Pass
+CCC,2014B,100068,F,Region_3,A Level or Equivalent,40-50%,0-35,0,60,N,Pass
+BBB,2014B,100069,F,Region_4,A Level or Equivalent,90-100%,35-55,3,60,N,Pass
+AAA,2014B,100070,F,Region_3,A Level or Equivalent,80-90%,35-55,3,120,N,Pass
+AAA,2013B,100071,F,Region_4,A Level or Equivalent,50-60%,0-35,3,60,N,Pass
+DDD,2013B,100072,F,Region_7,Post Graduate Qualification,10-20,0-35,1,60,N,Distinction
+DDD,2013B,100073,F,Region_1,HE Qualification,40-50%,0-35,1,60,N,Pass
+CCC,2014J,100074,M,Region_1,A Level or Equivalent,40-50%,35-55,0,90,N,Pass
+CCC,2013B,100075,F,Region_7,HE Qualification,20-30%,0-35,1,90,N,Distinction
+DDD,2014B,100076,M,Region_2,HE Qualification,50-60%,0-35,2,120,N,Withdrawn
+DDD,2013B,100077,F,Region_5,Lower Than A Level,20-30%,0-35,2,90,N,Withdrawn
+CCC,2014B,100078,M,Region_1,Lower Than A Level,30-40%,0-35,2,60,N,Pass
+CCC,2013B,100079,F,Region_7,A Level or Equivalent,30-40%,0-35,3,60,N,Distinction
+BBB,2014B,100080,M,Region_1,A Level or Equivalent,60-70%,0-35,0,120,N,Pass
+DDD,2014J,100081,M,Region_3,HE Qualification,70-80%,0-35,2,60,N,Pass
+AAA,2013B,100082,M,Region_4,HE Qualification,60-70%,0-35,0,60,Y,Withdrawn
+BBB,2014J,100083,M,Region_1,Post Graduate Qualification,60-70%,0-35,0,120,N,Pass
+DDD,2014B,100084,F,Region_5,HE Qualification,90-100%,0-35,0,60,Y,Fail
+AAA,2013B,100085,M,Region_3,HE Qualification,10-20,0-35,3,120,Y,Pass
+AAA,2013B,100086,M,Region_6,Post Graduate Qualification,0-10%,35-55,2,60,N,Fail
+AAA,2014B,100087,F,Region_2,Lower Than A Level,40-50%,0-35,0,120,N,Pass
+DDD,2014B,100088,M,Region_6,A Level or Equivalent,40-50%,0-35,2,60,N,Pass
+CCC,2013J,100089,F,Region_2,Post Graduate Qualification,10-20,35-55,2,120,N,Fail
+BBB,2014J,100090,M,Region_7,A Level or Equivalent,0-10%,35-55,2,60,N,Fail
+AAA,2013J,100091,M,Region_7,HE Qualification,90-100%,0-35,3,60,N,Pass
+AAA,2013B,100092,F,Region_6,HE Qualification,50-60%,35-55,0,90,N,Pass
+AAA,2014B,100093,M,Region_2,Lower Than A Level,90-100%,0-35,3,60,N,Fail
+AAA,2014B,100094,F,Region_7,HE Qualification,20-30%,35-55,3,60,N,Pass
+CCC,2013J,100095,F,Region_2,No Formal quals,70-80%,0-35,1,30,N,Withdrawn
+AAA,2014J,100096,F,Region_6,Post Graduate Qualification,80-90%,0-35,1,90,N,Fail
+DDD,2014B,100097,M,Region_6,A Level or Equivalent,30-40%,0-35,1,90,N,Pass
+BBB,2013B,100098,F,Region_4,A Level or Equivalent,0-10%,0-35,0,60,N,Withdrawn
+CCC,2014J,100099,M,Region_4,A Level or Equivalent,80-90%,0-35,0,90,N,Pass
+AAA,2013B,100100,F,Region_6,Lower Than A Level,50-60%,0-35,0,90,N,Withdrawn
+DDD,2013J,100101,F,Region_5,HE Qualification,30-40%,0-35,0,90,N,Pass
+BBB,2013J,100102,F,Region_1,Post Graduate Qualification,70-80%,0-35,3,120,N,Withdrawn
+AAA,2013J,100103,F,Region_1,A Level or Equivalent,80-90%,0-35,0,60,N,Fail
+BBB,2014B,100104,F,Region_5,Lower Than A Level,80-90%,0-35,1,120,N,Pass
+AAA,2014J,100105,F,Region_6,Post Graduate Qualification,20-30%,0-35,3,90,N,Withdrawn
+DDD,2014B,100106,F,Region_5,A Level or Equivalent,10-20,0-35,1,60,N,Pass
+DDD,2013B,100107,M,Region_4,HE Qualification,90-100%,35-55,0,60,N,Pass
+AAA,2013B,100108,F,Region_3,Lower Than A Level,0-10%,0-35,2,60,N,Distinction
+AAA,2013J,100109,M,Region_1,A Level or Equivalent,30-40%,0-35,2,60,Y,Withdrawn
+CCC,2013B,100110,M,Region_3,Post Graduate Qualification,70-80%,0-35,2,60,N,Fail
+AAA,2013B,100111,M,Region_7,Lower Than A Level,80-90%,0-35,1,60,N,Fail
+CCC,2013J,100112,M,Region_1,HE Qualification,90-100%,0-35,3,60,N,Pass
+CCC,2013B,100113,M,Region_3,A Level or Equivalent,60-70%,0-35,3,60,N,Pass
+CCC,2013J,100114,M,Region_3,A Level or Equivalent,10-20,0-35,0,60,N,Pass
+CCC,2013B,100115,F,Region_4,A Level or Equivalent,60-70%,35-55,0,60,N,Pass
+CCC,2014J,100116,F,Region_4,HE Qualification,0-10%,0-35,2,120,N,Pass
+AAA,2014B,100117,M,Region_4,A Level or Equivalent,50-60%,0-35,1,60,N,Fail
+CCC,2014J,100118,M,Region_4,A Level or Equivalent,10-20,0-35,3,60,Y,Fail
+DDD,2013B,100119,F,Region_1,Lower Than A Level,40-50%,0-35,0,90,N,Withdrawn
+DDD,2013B,100120,M,Region_1,A Level or Equivalent,20-30%,35-55,1,90,N,Pass
+AAA,2013B,100121,M,Region_5,A Level or Equivalent,50-60%,35-55,1,90,N,Pass
+AAA,2013B,100122,M,Region_2,A Level or Equivalent,70-80%,0-35,2,90,N,Withdrawn
+CCC,2013B,100123,F,Region_4,No Formal quals,0-10%,0-35,3,120,N,Pass
+CCC,2013J,100124,M,Region_5,HE Qualification,90-100%,35-55,0,120,N,Pass
+BBB,2013J,100125,F,Region_1,Lower Than A Level,70-80%,0-35,3,60,N,Fail
+CCC,2013B,100126,M,Region_7,Lower Than A Level,90-100%,0-35,0,120,N,Pass
+CCC,2014B,100127,M,Region_7,Lower Than A Level,0-10%,35-55,0,60,Y,Pass
+DDD,2014B,100128,F,Region_5,Lower Than A Level,70-80%,0-35,2,60,N,Withdrawn
+CCC,2014J,100129,M,Region_1,A Level or Equivalent,50-60%,0-35,1,60,N,Distinction
+DDD,2014B,100130,F,Region_2,HE Qualification,60-70%,35-55,0,120,N,Pass
+CCC,2013J,100131,M,Region_5,HE Qualification,50-60%,0-35,0,90,N,Pass
+BBB,2014J,100132,M,Region_2,A Level or Equivalent,10-20,35-55,1,120,N,Fail
+CCC,2013J,100133,M,Region_5,A Level or Equivalent,20-30%,0-35,1,90,N,Withdrawn
+DDD,2013B,100134,M,Region_6,A Level or Equivalent,50-60%,35-55,3,60,N,Pass
+BBB,2014J,100135,F,Region_4,A Level or Equivalent,80-90%,0-35,0,120,N,Fail
+AAA,2014B,100136,F,Region_1,A Level or Equivalent,60-70%,0-35,1,60,N,Pass
+DDD,2013J,100137,M,Region_1,A Level or Equivalent,20-30%,0-35,1,60,N,Withdrawn
+CCC,2014J,100138,M,Region_5,A Level or Equivalent,10-20,0-35,1,120,N,Pass
+AAA,2013J,100139,F,Region_1,Lower Than A Level,30-40%,0-35,3,60,N,Distinction
+BBB,2014B,100140,M,Region_3,A Level or Equivalent,70-80%,0-35,0,90,N,Pass
+BBB,2014J,100141,M,Region_2,No Formal quals,70-80%,35-55,0,60,N,Pass
+AAA,2013B,100142,M,Region_6,A Level or Equivalent,0-10%,0-35,1,60,Y,Pass
+BBB,2014J,100143,F,Region_2,Lower Than A Level,80-90%,0-35,0,120,N,Distinction
+BBB,2013B,100144,M,Region_7,A Level or Equivalent,20-30%,0-35,3,60,N,Pass
+BBB,2014B,100145,F,Region_5,A Level or Equivalent,0-10%,35-55,0,30,Y,Pass
+CCC,2013J,100146,M,Region_5,Lower Than A Level,30-40%,0-35,0,60,Y,Withdrawn
+BBB,2014J,100147,M,Region_1,HE Qualification,80-90%,35-55,3,120,N,Pass
+DDD,2013J,100148,M,Region_1,Lower Than A Level,70-80%,0-35,0,90,N,Distinction
+CCC,2014J,100149,F,Region_4,Post Graduate Qualification,70-80%,35-55,0,60,N,Pass
+DDD,2014B,100150,F,Region_7,Lower Than A Level,90-100%,0-35,0,60,N,Pass
+AAA,2014B,100151,M,Region_4,HE Qualification,80-90%,0-35,1,90,N,Pass
+CCC,2014J,100152,F,Region_7,A Level or Equivalent,30-40%,0-35,1,120,N,Distinction
+CCC,2013J,100153,F,Region_6,HE Qualification,40-50%,0-35,2,90,N,Pass
+CCC,2014B,100154,M,Region_5,HE Qualification,70-80%,0-35,2,60,N,Distinction
+CCC,2014B,100155,M,Region_7,HE Qualification,50-60%,0-35,0,60,N,Withdrawn
+BBB,2014J,100156,F,Region_6,HE Qualification,0-10%,0-35,0,60,Y,Pass
+CCC,2014J,100157,F,Region_1,Lower Than A Level,20-30%,0-35,2,60,Y,Pass
+CCC,2013B,100158,M,Region_2,HE Qualification,0-10%,0-35,0,60,N,Withdrawn
+DDD,2013B,100159,M,Region_6,A Level or Equivalent,30-40%,0-35,2,60,N,Fail
+CCC,2014J,100160,M,Region_3,HE Qualification,80-90%,35-55,1,60,N,Pass
+DDD,2014J,100161,F,Region_2,A Level or Equivalent,10-20,0-35,2,60,N,Distinction
+AAA,2013J,100162,F,Region_3,Lower Than A Level,10-20,0-35,1,60,N,Fail
+AAA,2013J,100163,F,Region_5,HE Qualification,80-90%,0-35,2,90,N,Pass
+CCC,2014J,100164,M,Region_2,HE Qualification,60-70%,0-35,1,120,N,Pass
+AAA,2014B,100165,M,Region_1,No Formal quals,40-50%,0-35,1,60,N,Pass
+AAA,2013B,100166,M,Region_5,A Level or Equivalent,80-90%,35-55,3,120,N,Withdrawn
+CCC,2013J,100167,M,Region_2,A Level or Equivalent,10-20,0-35,1,90,N,Pass
+DDD,2013J,100168,M,Region_4,A Level or Equivalent,80-90%,0-35,2,60,N,Pass
+CCC,2013J,100169,F,Region_4,A Level or Equivalent,30-40%,35-55,0,60,N,Distinction
+DDD,2014B,100170,F,Region_2,Post Graduate Qualification,0-10%,35-55,2,60,N,Pass
+DDD,2014B,100171,M,Region_4,Lower Than A Level,70-80%,35-55,0,60,N,Pass
+AAA,2013B,100172,M,Region_4,Post Graduate Qualification,10-20,0-35,1,90,Y,Pass
+BBB,2014B,100173,F,Region_7,A Level or Equivalent,20-30%,55<=,2,90,N,Pass
+AAA,2013B,100174,F,Region_1,A Level or Equivalent,30-40%,0-35,1,60,N,Pass
+AAA,2013B,100175,M,Region_1,No Formal quals,70-80%,35-55,1,60,N,Distinction
+DDD,2013J,100176,F,Region_6,Lower Than A Level,50-60%,35-55,3,60,Y,Pass
+CCC,2014J,100177,M,Region_5,A Level or Equivalent,0-10%,35-55,3,60,N,Distinction
+CCC,2013J,100178,F,Region_7,A Level or Equivalent,40-50%,35-55,3,30,Y,Withdrawn
+BBB,2014B,100179,F,Region_1,Lower Than A Level,30-40%,0-35,1,120,N,Fail
+BBB,2014B,100180,F,Region_5,HE Qualification,90-100%,35-55,1,60,Y,Pass
+CCC,2014B,100181,M,Region_6,Lower Than A Level,0-10%,35-55,3,60,N,Distinction
+DDD,2013J,100182,F,Region_5,A Level or Equivalent,90-100%,0-35,3,60,N,Pass
+AAA,2013B,100183,M,Region_3,A Level or Equivalent,40-50%,0-35,2,60,N,Withdrawn
+DDD,2014B,100184,M,Region_3,HE Qualification,70-80%,0-35,1,60,N,Withdrawn
+BBB,2013J,100185,F,Region_1,No Formal quals,20-30%,0-35,3,60,N,Withdrawn
+BBB,2013J,100186,M,Region_6,Lower Than A Level,70-80%,0-35,0,60,N,Withdrawn
+AAA,2014B,100187,M,Region_7,HE Qualification,70-80%,35-55,1,60,N,Distinction
+CCC,2014J,100188,F,Region_2,Lower Than A Level,80-90%,35-55,1,60,N,Withdrawn
+DDD,2013B,100189,M,Region_3,A Level or Equivalent,80-90%,0-35,3,90,N,Fail
+BBB,2014B,100190,F,Region_5,No Formal quals,70-80%,0-35,1,60,N,Pass
+DDD,2014B,100191,F,Region_2,A Level or Equivalent,70-80%,0-35,2,120,N,Withdrawn
+CCC,2013J,100192,M,Region_5,A Level or Equivalent,50-60%,0-35,3,60,N,Pass
+DDD,2013B,100193,M,Region_2,Lower Than A Level,30-40%,35-55,2,90,N,Pass
+CCC,2013J,100194,M,Region_4,Lower Than A Level,40-50%,35-55,3,60,N,Distinction
+BBB,2014B,100195,M,Region_6,A Level or Equivalent,90-100%,0-35,0,60,N,Fail
+BBB,2014J,100196,F,Region_1,A Level or Equivalent,40-50%,55<=,1,60,N,Pass
+AAA,2013J,100197,F,Region_5,Lower Than A Level,20-30%,0-35,1,60,N,Withdrawn
+DDD,2013J,100198,F,Region_1,HE Qualification,20-30%,0-35,2,30,N,Pass
+DDD,2014J,100199,M,Region_4,A Level or Equivalent,80-90%,0-35,1,90,N,Fail
+BBB,2014B,100200,F,Region_1,Lower Than A Level,10-20,0-35,0,60,N,Withdrawn
+BBB,2014B,100201,F,Region_7,Lower Than A Level,60-70%,0-35,3,60,N,Withdrawn
+BBB,2014J,100202,F,Region_7,HE Qualification,70-80%,0-35,0,30,N,Pass
+BBB,2013J,100203,F,Region_7,A Level or Equivalent,90-100%,0-35,3,90,N,Withdrawn
+DDD,2014J,100204,F,Region_3,HE Qualification,60-70%,0-35,0,60,N,Fail
+BBB,2014B,100205,F,Region_4,A Level or Equivalent,40-50%,0-35,2,60,N,Pass
+CCC,2013B,100206,M,Region_3,A Level or Equivalent,70-80%,0-35,1,60,N,Distinction
+DDD,2013B,100207,F,Region_7,A Level or Equivalent,10-20,35-55,2,60,N,Pass
+AAA,2014J,100208,M,Region_4,A Level or Equivalent,50-60%,0-35,3,30,N,Withdrawn
+DDD,2013B,100209,F,Region_6,Lower Than A Level,10-20,0-35,3,60,N,Fail
+CCC,2013J,100210,F,Region_5,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+DDD,2014B,100211,F,Region_5,A Level or Equivalent,30-40%,0-35,2,30,N,Pass
+CCC,2014B,100212,M,Region_6,Lower Than A Level,20-30%,0-35,3,90,Y,Pass
+BBB,2013B,100213,F,Region_7,Lower Than A Level,60-70%,0-35,2,60,N,Pass
+AAA,2014J,100214,F,Region_1,A Level or Equivalent,10-20,0-35,0,90,N,Pass
+BBB,2014B,100215,M,Region_6,A Level or Equivalent,10-20,35-55,1,60,N,Fail
+BBB,2013B,100216,F,Region_4,HE Qualification,70-80%,55<=,1,90,N,Pass
+AAA,2013B,100217,F,Region_7,Lower Than A Level,0-10%,35-55,2,60,N,Fail
+BBB,2014J,100218,F,Region_3,HE Qualification,70-80%,0-35,1,60,N,Pass
+BBB,2014B,100219,M,Region_7,No Formal quals,20-30%,0-35,1,60,N,Fail
+BBB,2013B,100220,F,Region_3,HE Qualification,70-80%,0-35,0,30,N,Fail
+DDD,2013J,100221,M,Region_3,A Level or Equivalent,20-30%,0-35,0,60,N,Pass
+BBB,2013B,100222,F,Region_4,A Level or Equivalent,30-40%,35-55,1,60,N,Pass
+AAA,2013B,100223,F,Region_5,A Level or Equivalent,40-50%,35-55,0,30,N,Pass
+CCC,2013J,100224,M,Region_4,Lower Than A Level,90-100%,0-35,3,90,N,Withdrawn
+AAA,2013B,100225,F,Region_7,Post Graduate Qualification,20-30%,0-35,3,60,Y,Fail
+DDD,2013J,100226,M,Region_5,HE Qualification,70-80%,35-55,2,30,N,Fail
+DDD,2013J,100227,F,Region_5,A Level or Equivalent,20-30%,0-35,1,30,N,Pass
+AAA,2013B,100228,F,Region_7,A Level or Equivalent,70-80%,0-35,1,60,N,Pass
+BBB,2013J,100229,M,Region_1,Lower Than A Level,60-70%,0-35,0,60,N,Pass
+CCC,2014B,100230,F,Region_3,Lower Than A Level,70-80%,0-35,1,90,N,Distinction
+CCC,2014J,100231,M,Region_7,A Level or Equivalent,80-90%,0-35,1,60,N,Distinction
+AAA,2013J,100232,M,Region_6,A Level or Equivalent,80-90%,0-35,0,60,N,Withdrawn
+BBB,2013B,100233,F,Region_4,A Level or Equivalent,10-20,0-35,0,30,N,Fail
+BBB,2014J,100234,M,Region_2,Lower Than A Level,50-60%,35-55,0,60,Y,Pass
+BBB,2014J,100235,F,Region_2,A Level or Equivalent,40-50%,0-35,2,60,N,Withdrawn
+CCC,2013B,100236,F,Region_6,Lower Than A Level,10-20,35-55,3,60,N,Distinction
+DDD,2013J,100237,M,Region_1,A Level or Equivalent,40-50%,0-35,3,90,N,Pass
+BBB,2014B,100238,F,Region_4,Lower Than A Level,10-20,0-35,2,60,N,Fail
+AAA,2013B,100239,F,Region_4,A Level or Equivalent,40-50%,0-35,0,90,N,Pass
+AAA,2013B,100240,F,Region_4,Lower Than A Level,90-100%,35-55,2,60,N,Withdrawn
+AAA,2013B,100241,F,Region_6,A Level or Equivalent,20-30%,35-55,1,60,N,Distinction
+AAA,2013B,100242,F,Region_4,A Level or Equivalent,90-100%,0-35,2,90,Y,Pass
+BBB,2014J,100243,M,Region_3,HE Qualification,80-90%,0-35,1,60,N,Distinction
+CCC,2013B,100244,M,Region_1,HE Qualification,10-20,55<=,3,60,N,Pass
+AAA,2014J,100245,F,Region_2,Post Graduate Qualification,0-10%,0-35,0,60,N,Pass
+DDD,2013J,100246,F,Region_7,A Level or Equivalent,50-60%,0-35,1,30,N,Withdrawn
+AAA,2014B,100247,F,Region_7,HE Qualification,0-10%,35-55,1,30,N,Pass
+BBB,2013J,100248,F,Region_6,HE Qualification,90-100%,0-35,2,60,N,Pass
+BBB,2014B,100249,F,Region_1,HE Qualification,0-10%,0-35,3,60,N,Fail
+BBB,2013B,100250,M,Region_3,A Level or Equivalent,90-100%,0-35,3,120,N,Withdrawn
+DDD,2014B,100251,F,Region_7,A Level or Equivalent,0-10%,0-35,1,30,N,Pass
+DDD,2013J,100252,F,Region_4,Post Graduate Qualification,0-10%,0-35,2,60,N,Pass
+CCC,2014B,100253,M,Region_2,No Formal quals,70-80%,0-35,2,60,N,Withdrawn
+BBB,2014J,100254,F,Region_3,A Level or Equivalent,10-20,0-35,3,90,N,Pass
+BBB,2014B,100255,F,Region_4,Post Graduate Qualification,20-30%,0-35,3,120,N,Distinction
+AAA,2013B,100256,F,Region_5,HE Qualification,20-30%,35-55,1,60,N,Withdrawn
+DDD,2013J,100257,M,Region_4,A Level or Equivalent,30-40%,0-35,0,60,N,Pass
+DDD,2014B,100258,F,Region_7,Post Graduate Qualification,10-20,0-35,2,30,N,Distinction
+BBB,2014J,100259,M,Region_4,A Level or Equivalent,60-70%,0-35,1,60,N,Pass
+AAA,2013B,100260,M,Region_3,A Level or Equivalent,50-60%,55<=,1,90,N,Pass
+BBB,2013J,100261,M,Region_4,A Level or Equivalent,40-50%,35-55,0,60,N,Pass
+AAA,2013J,100262,M,Region_2,A Level or Equivalent,70-80%,0-35,3,120,N,Distinction
+DDD,2014B,100263,F,Region_2,HE Qualification,50-60%,0-35,0,120,N,Fail
+BBB,2014J,100264,M,Region_2,No Formal quals,20-30%,0-35,1,90,Y,Withdrawn
+BBB,2013B,100265,F,Region_4,A Level or Equivalent,50-60%,0-35,2,60,N,Pass
+AAA,2014B,100266,M,Region_4,A Level or Equivalent,50-60%,0-35,3,30,Y,Withdrawn
+AAA,2013J,100267,M,Region_5,A Level or Equivalent,80-90%,0-35,2,120,N,Pass
+DDD,2013B,100268,M,Region_3,Lower Than A Level,90-100%,35-55,2,30,N,Pass
+BBB,2014J,100269,F,Region_3,A Level or Equivalent,60-70%,0-35,0,30,N,Fail
+BBB,2014J,100270,F,Region_6,A Level or Equivalent,10-20,35-55,2,90,N,Pass
+BBB,2013J,100271,M,Region_1,Lower Than A Level,10-20,35-55,3,60,N,Pass
+CCC,2014J,100272,F,Region_5,No Formal quals,70-80%,35-55,1,30,Y,Withdrawn
+BBB,2014B,100273,M,Region_5,Post Graduate Qualification,90-100%,0-35,2,30,N,Withdrawn
+BBB,2014B,100274,M,Region_3,No Formal quals,0-10%,0-35,2,60,N,Pass
+AAA,2014J,100275,F,Region_3,A Level or Equivalent,40-50%,0-35,0,30,N,Pass
+BBB,2013B,100276,F,Region_2,Post Graduate Qualification,10-20,0-35,3,60,N,Fail
+AAA,2013B,100277,F,Region_6,Lower Than A Level,50-60%,0-35,0,60,N,Withdrawn
+AAA,2014B,100278,F,Region_4,HE Qualification,90-100%,0-35,0,60,N,Distinction
+DDD,2014J,100279,M,Region_1,Post Graduate Qualification,70-80%,0-35,3,30,N,Withdrawn
+DDD,2013B,100280,F,Region_3,A Level or Equivalent,20-30%,35-55,3,90,N,Pass
+BBB,2013B,100281,F,Region_7,A Level or Equivalent,80-90%,55<=,0,90,N,Withdrawn
+CCC,2013B,100282,F,Region_1,Lower Than A Level,40-50%,0-35,0,60,N,Fail
+BBB,2013J,100283,M,Region_3,HE Qualification,0-10%,35-55,0,60,N,Pass
+BBB,2014B,100284,M,Region_3,A Level or Equivalent,20-30%,0-35,0,60,N,Fail
+BBB,2014B,100285,M,Region_5,A Level or Equivalent,50-60%,0-35,2,90,N,Pass
+BBB,2014J,100286,F,Region_6,HE Qualification,70-80%,0-35,3,60,N,Pass
+CCC,2013B,100287,F,Region_3,HE Qualification,0-10%,0-35,3,60,N,Pass
+BBB,2014B,100288,M,Region_2,A Level or Equivalent,50-60%,0-35,1,60,N,Fail
+DDD,2014B,100289,M,Region_5,A Level or Equivalent,30-40%,0-35,1,60,N,Distinction
+AAA,2013J,100290,F,Region_1,HE Qualification,20-30%,0-35,2,30,N,Pass
+DDD,2013B,100291,F,Region_6,A Level or Equivalent,60-70%,0-35,3,60,N,Pass
+DDD,2013B,100292,M,Region_5,A Level or Equivalent,30-40%,0-35,3,90,N,Withdrawn
+DDD,2013J,100293,M,Region_2,HE Qualification,90-100%,0-35,1,90,N,Pass
+CCC,2013B,100294,M,Region_1,A Level or Equivalent,20-30%,35-55,3,60,Y,Withdrawn
+AAA,2013B,100295,F,Region_6,A Level or Equivalent,40-50%,0-35,1,120,N,Pass
+AAA,2013J,100296,F,Region_6,Post Graduate Qualification,30-40%,0-35,3,60,N,Distinction
+BBB,2014B,100297,F,Region_4,Lower Than A Level,20-30%,35-55,0,60,N,Pass
+AAA,2014J,100298,F,Region_2,HE Qualification,90-100%,35-55,2,90,N,Pass
+AAA,2013B,100299,F,Region_6,Lower Than A Level,50-60%,0-35,3,60,N,Pass
+DDD,2013B,100300,F,Region_5,A Level or Equivalent,60-70%,35-55,3,60,N,Pass
+BBB,2014J,100301,M,Region_6,HE Qualification,70-80%,35-55,0,60,N,Withdrawn
+DDD,2014B,100302,M,Region_2,A Level or Equivalent,90-100%,35-55,0,90,N,Distinction
+CCC,2013J,100303,M,Region_3,Lower Than A Level,30-40%,35-55,0,60,N,Pass
+CCC,2014J,100304,M,Region_3,A Level or Equivalent,30-40%,0-35,2,60,N,Pass
+BBB,2014J,100305,F,Region_4,A Level or Equivalent,90-100%,0-35,0,120,N,Withdrawn
+CCC,2013J,100306,F,Region_3,A Level or Equivalent,60-70%,35-55,3,60,Y,Pass
+CCC,2013B,100307,M,Region_6,A Level or Equivalent,10-20,35-55,2,60,N,Pass
+BBB,2013B,100308,F,Region_6,A Level or Equivalent,30-40%,35-55,1,60,N,Pass
+AAA,2014J,100309,M,Region_6,Lower Than A Level,80-90%,0-35,1,90,N,Withdrawn
+DDD,2013B,100310,M,Region_4,A Level or Equivalent,10-20,0-35,0,120,N,Pass
+BBB,2014J,100311,M,Region_6,A Level or Equivalent,30-40%,0-35,0,90,N,Withdrawn
+DDD,2014J,100312,M,Region_4,HE Qualification,40-50%,0-35,2,60,Y,Distinction
+CCC,2013B,100313,M,Region_2,Lower Than A Level,20-30%,0-35,2,30,Y,Fail
+CCC,2013B,100314,F,Region_4,A Level or Equivalent,80-90%,35-55,0,60,N,Pass
+AAA,2013J,100315,F,Region_1,A Level or Equivalent,90-100%,0-35,1,60,N,Pass
+DDD,2014B,100316,F,Region_6,Post Graduate Qualification,70-80%,35-55,2,60,N,Withdrawn
+CCC,2013B,100317,M,Region_4,Post Graduate Qualification,80-90%,0-35,0,60,Y,Fail
+BBB,2014B,100318,F,Region_2,A Level or Equivalent,60-70%,0-35,1,120,N,Pass
+AAA,2014B,100319,M,Region_5,A Level or Equivalent,30-40%,0-35,0,90,N,Pass
+AAA,2013J,100320,F,Region_5,HE Qualification,20-30%,35-55,1,90,N,Pass
+DDD,2014B,100321,F,Region_7,A Level or Equivalent,30-40%,0-35,1,30,N,Fail
+DDD,2013J,100322,F,Region_1,A Level or Equivalent,70-80%,55<=,0,60,N,Pass
+BBB,2013J,100323,M,Region_4,Post Graduate Qualification,80-90%,0-35,2,60,N,Fail
+DDD,2013J,100324,M,Region_6,A Level or Equivalent,10-20,0-35,3,60,N,Fail
+BBB,2014J,100325,F,Region_4,Lower Than A Level,10-20,0-35,3,60,N,Pass
+AAA,2014B,100326,F,Region_2,Post Graduate Qualification,80-90%,0-35,2,60,N,Withdrawn
+BBB,2013J,100327,F,Region_5,A Level or Equivalent,0-10%,0-35,0,120,N,Withdrawn
+DDD,2014B,100328,M,Region_3,HE Qualification,90-100%,0-35,0,60,N,Pass
+AAA,2013J,100329,F,Region_6,HE Qualification,60-70%,55<=,3,90,N,Pass
+BBB,2013J,100330,M,Region_3,A Level or Equivalent,80-90%,0-35,3,120,N,Pass
+CCC,2014B,100331,M,Region_6,HE Qualification,0-10%,0-35,2,90,N,Withdrawn
+DDD,2013J,100332,M,Region_6,A Level or Equivalent,0-10%,0-35,3,90,N,Pass
+BBB,2013B,100333,F,Region_6,No Formal quals,80-90%,35-55,3,60,N,Distinction
+BBB,2013B,100334,F,Region_5,A Level or Equivalent,0-10%,0-35,1,90,N,Pass
+CCC,2014B,100335,M,Region_1,Lower Than A Level,70-80%,0-35,0,120,N,Fail
+DDD,2014B,100336,M,Region_3,A Level or Equivalent,70-80%,0-35,3,90,N,Withdrawn
+AAA,2013J,100337,M,Region_4,A Level or Equivalent,40-50%,0-35,1,60,N,Withdrawn
+CCC,2013J,100338,F,Region_7,Lower Than A Level,10-20,0-35,3,90,N,Distinction
+BBB,2013B,100339,M,Region_4,HE Qualification,40-50%,35-55,2,30,N,Pass
+AAA,2013B,100340,M,Region_3,Lower Than A Level,80-90%,35-55,0,60,N,Distinction
+BBB,2014B,100341,M,Region_1,A Level or Equivalent,30-40%,0-35,2,120,N,Withdrawn
+AAA,2014B,100342,F,Region_3,No Formal quals,90-100%,35-55,1,60,N,Pass
+CCC,2013J,100343,F,Region_6,A Level or Equivalent,10-20,0-35,0,60,N,Pass
+AAA,2013J,100344,F,Region_2,Lower Than A Level,20-30%,0-35,1,90,N,Pass
+BBB,2014B,100345,M,Region_1,HE Qualification,60-70%,0-35,3,120,N,Distinction
+CCC,2014B,100346,M,Region_6,HE Qualification,30-40%,35-55,0,90,N,Pass
+AAA,2013B,100347,F,Region_5,A Level or Equivalent,10-20,0-35,1,60,N,Fail
+AAA,2014B,100348,F,Region_3,A Level or Equivalent,80-90%,0-35,0,60,N,Pass
+AAA,2014B,100349,F,Region_7,No Formal quals,10-20,0-35,3,60,N,Withdrawn
+CCC,2014B,100350,F,Region_2,A Level or Equivalent,10-20,0-35,1,60,N,Pass
+AAA,2014J,100351,F,Region_6,Lower Than A Level,80-90%,0-35,0,30,N,Pass
+AAA,2013B,100352,M,Region_3,No Formal quals,40-50%,35-55,3,90,N,Pass
+DDD,2014B,100353,M,Region_6,A Level or Equivalent,30-40%,55<=,0,120,N,Pass
+CCC,2013B,100354,F,Region_5,Lower Than A Level,70-80%,0-35,1,120,N,Pass
+AAA,2013B,100355,F,Region_7,A Level or Equivalent,90-100%,35-55,2,60,N,Withdrawn
+BBB,2013B,100356,M,Region_4,HE Qualification,10-20,35-55,2,90,N,Withdrawn
+DDD,2013J,100357,F,Region_4,Lower Than A Level,80-90%,35-55,2,60,N,Fail
+AAA,2013B,100358,M,Region_3,A Level or Equivalent,50-60%,0-35,0,60,N,Fail
+BBB,2014B,100359,F,Region_1,A Level or Equivalent,10-20,0-35,1,60,N,Fail
+CCC,2013B,100360,M,Region_2,Post Graduate Qualification,10-20,55<=,1,120,N,Pass
+DDD,2014J,100361,M,Region_1,No Formal quals,40-50%,0-35,1,60,N,Withdrawn
+CCC,2013B,100362,M,Region_1,A Level or Equivalent,10-20,55<=,2,60,N,Pass
+BBB,2013J,100363,F,Region_6,A Level or Equivalent,80-90%,55<=,0,90,N,Withdrawn
+DDD,2013B,100364,F,Region_6,HE Qualification,40-50%,0-35,2,60,Y,Pass
+DDD,2014J,100365,F,Region_1,A Level or Equivalent,70-80%,35-55,2,60,N,Pass
+CCC,2013B,100366,F,Region_3,A Level or Equivalent,10-20,35-55,0,120,N,Pass
+DDD,2013J,100367,F,Region_5,Lower Than A Level,20-30%,0-35,1,60,N,Withdrawn
+DDD,2014J,100368,F,Region_7,A Level or Equivalent,70-80%,0-35,1,60,N,Pass
+DDD,2013J,100369,M,Region_4,Lower Than A Level,80-90%,0-35,0,90,N,Pass
+CCC,2014B,100370,M,Region_5,HE Qualification,0-10%,0-35,0,60,Y,Pass
+DDD,2014J,100371,M,Region_1,HE Qualification,80-90%,0-35,1,60,N,Pass
+CCC,2013J,100372,M,Region_1,Lower Than A Level,90-100%,0-35,0,90,N,Withdrawn
+CCC,2013J,100373,M,Region_4,A Level or Equivalent,60-70%,0-35,3,90,N,Pass
+BBB,2013J,100374,F,Region_2,No Formal quals,30-40%,0-35,1,60,N,Distinction
+BBB,2014B,100375,M,Region_5,A Level or Equivalent,90-100%,0-35,0,60,N,Withdrawn
+DDD,2013B,100376,F,Region_5,A Level or Equivalent,50-60%,0-35,0,90,N,Pass
+AAA,2013B,100377,F,Region_7,Lower Than A Level,90-100%,0-35,2,60,N,Withdrawn
+BBB,2014J,100378,M,Region_7,A Level or Equivalent,10-20,35-55,0,60,N,Pass
+AAA,2013J,100379,F,Region_2,Post Graduate Qualification,30-40%,0-35,2,60,N,Distinction
+AAA,2013B,100380,F,Region_4,Lower Than A Level,80-90%,0-35,0,60,N,Pass
+CCC,2013J,100381,M,Region_4,A Level or Equivalent,40-50%,35-55,0,120,N,Pass
+CCC,2014J,100382,M,Region_1,HE Qualification,70-80%,35-55,3,30,N,Distinction
+CCC,2013J,100383,M,Region_1,A Level or Equivalent,0-10%,35-55,2,60,N,Pass
+AAA,2013J,100384,F,Region_7,A Level or Equivalent,30-40%,0-35,2,60,N,Pass
+DDD,2014B,100385,M,Region_5,Lower Than A Level,60-70%,35-55,3,60,N,Pass
+BBB,2013B,100386,F,Region_4,A Level or Equivalent,70-80%,55<=,2,60,N,Pass
+CCC,2013B,100387,F,Region_3,A Level or Equivalent,90-100%,0-35,2,90,N,Pass
+DDD,2014B,100388,F,Region_1,HE Qualification,80-90%,0-35,3,60,N,Fail
+DDD,2013B,100389,F,Region_4,No Formal quals,70-80%,0-35,3,60,N,Pass
+DDD,2014J,100390,F,Region_5,Lower Than A Level,80-90%,0-35,3,120,Y,Pass
+DDD,2014J,100391,F,Region_1,HE Qualification,90-100%,0-35,0,90,N,Pass
+AAA,2014J,100392,F,Region_1,A Level or Equivalent,80-90%,0-35,3,60,N,Pass
+AAA,2014J,100393,F,Region_6,HE Qualification,40-50%,0-35,0,90,N,Withdrawn
+AAA,2013J,100394,M,Region_1,Lower Than A Level,10-20,0-35,3,120,N,Fail
+AAA,2013J,100395,M,Region_4,A Level or Equivalent,30-40%,0-35,0,60,N,Pass
+BBB,2014B,100396,F,Region_3,A Level or Equivalent,70-80%,0-35,1,60,N,Distinction
+BBB,2014B,100397,M,Region_3,A Level or Equivalent,60-70%,55<=,0,60,N,Distinction
+CCC,2013B,100398,M,Region_1,HE Qualification,60-70%,35-55,3,60,N,Pass
+AAA,2014J,100399,F,Region_3,HE Qualification,40-50%,55<=,2,60,Y,Pass
+DDD,2013B,100400,F,Region_5,A Level or Equivalent,30-40%,35-55,0,90,N,Pass
+CCC,2013B,100401,F,Region_1,A Level or Equivalent,80-90%,0-35,3,60,N,Pass
+CCC,2013B,100402,F,Region_5,A Level or Equivalent,10-20,0-35,0,60,N,Withdrawn
+DDD,2013B,100403,M,Region_3,HE Qualification,0-10%,0-35,2,90,N,Pass
+AAA,2013J,100404,M,Region_7,HE Qualification,40-50%,0-35,3,60,N,Pass
+DDD,2014J,100405,F,Region_1,A Level or Equivalent,80-90%,0-35,0,30,N,Fail
+AAA,2013B,100406,F,Region_7,No Formal quals,0-10%,0-35,0,90,Y,Pass
+AAA,2014B,100407,F,Region_3,HE Qualification,50-60%,35-55,1,60,N,Pass
+BBB,2013J,100408,F,Region_6,Lower Than A Level,50-60%,35-55,2,90,N,Withdrawn
+AAA,2014J,100409,F,Region_6,HE Qualification,60-70%,0-35,3,90,N,Withdrawn
+BBB,2014J,100410,F,Region_6,Post Graduate Qualification,90-100%,0-35,1,90,N,Withdrawn
+AAA,2013J,100411,M,Region_5,Post Graduate Qualification,70-80%,35-55,0,60,N,Pass
+AAA,2013B,100412,M,Region_2,A Level or Equivalent,30-40%,0-35,1,90,N,Withdrawn
+CCC,2014J,100413,F,Region_6,Lower Than A Level,20-30%,0-35,2,60,N,Withdrawn
+CCC,2013J,100414,M,Region_2,HE Qualification,60-70%,35-55,0,60,Y,Pass
+DDD,2013J,100415,F,Region_1,HE Qualification,80-90%,0-35,2,120,N,Pass
+DDD,2014J,100416,M,Region_6,No Formal quals,0-10%,0-35,0,60,N,Distinction
+DDD,2013J,100417,M,Region_7,HE Qualification,60-70%,0-35,3,90,N,Fail
+AAA,2013B,100418,F,Region_1,A Level or Equivalent,20-30%,35-55,1,120,N,Fail
+BBB,2013B,100419,F,Region_7,A Level or Equivalent,30-40%,0-35,3,60,N,Pass
+BBB,2014B,100420,M,Region_3,A Level or Equivalent,60-70%,0-35,3,90,N,Pass
+DDD,2013B,100421,F,Region_4,Post Graduate Qualification,60-70%,0-35,1,90,N,Fail
+BBB,2013J,100422,M,Region_7,A Level or Equivalent,50-60%,0-35,1,120,N,Pass
+CCC,2014B,100423,F,Region_1,HE Qualification,40-50%,0-35,0,120,Y,Pass
+CCC,2014J,100424,M,Region_1,HE Qualification,80-90%,0-35,3,90,N,Pass
+BBB,2013J,100425,M,Region_4,A Level or Equivalent,10-20,0-35,3,60,N,Pass
+DDD,2013J,100426,F,Region_3,Post Graduate Qualification,20-30%,35-55,2,60,N,Pass
+AAA,2014J,100427,F,Region_7,Lower Than A Level,10-20,0-35,0,60,Y,Withdrawn
+BBB,2014B,100428,M,Region_5,Post Graduate Qualification,60-70%,0-35,2,60,N,Withdrawn
+BBB,2013J,100429,F,Region_4,HE Qualification,50-60%,0-35,0,90,N,Fail
+DDD,2014B,100430,F,Region_1,A Level or Equivalent,10-20,0-35,2,120,N,Withdrawn
+AAA,2014B,100431,M,Region_6,HE Qualification,90-100%,0-35,3,60,N,Pass
+CCC,2014B,100432,M,Region_7,HE Qualification,30-40%,0-35,0,60,N,Pass
+DDD,2013B,100433,F,Region_5,No Formal quals,60-70%,35-55,3,30,N,Withdrawn
+DDD,2013J,100434,M,Region_4,Lower Than A Level,0-10%,0-35,1,60,N,Pass
+DDD,2014J,100435,F,Region_1,Lower Than A Level,10-20,0-35,3,60,N,Pass
+DDD,2014B,100436,M,Region_5,HE Qualification,80-90%,55<=,1,60,N,Pass
+DDD,2013B,100437,F,Region_4,A Level or Equivalent,40-50%,35-55,3,60,Y,Withdrawn
+BBB,2014B,100438,M,Region_5,A Level or Equivalent,40-50%,35-55,1,30,N,Pass
+DDD,2013B,100439,M,Region_5,Post Graduate Qualification,60-70%,0-35,1,120,Y,Fail
+CCC,2013B,100440,M,Region_6,HE Qualification,0-10%,35-55,1,60,N,Pass
+AAA,2014J,100441,F,Region_6,Lower Than A Level,90-100%,0-35,1,90,N,Withdrawn
+AAA,2014J,100442,M,Region_3,A Level or Equivalent,10-20,35-55,1,30,N,Pass
+DDD,2013B,100443,M,Region_2,A Level or Equivalent,0-10%,0-35,3,60,N,Withdrawn
+CCC,2014J,100444,F,Region_2,A Level or Equivalent,20-30%,0-35,1,60,N,Pass
+AAA,2013J,100445,M,Region_4,Post Graduate Qualification,60-70%,35-55,1,90,N,Withdrawn
+DDD,2014J,100446,F,Region_7,A Level or Equivalent,20-30%,0-35,3,90,N,Fail
+BBB,2014B,100447,F,Region_1,A Level or Equivalent,70-80%,0-35,0,60,N,Withdrawn
+BBB,2013J,100448,F,Region_1,Lower Than A Level,0-10%,0-35,2,120,N,Fail
+CCC,2014B,100449,F,Region_6,A Level or Equivalent,70-80%,0-35,3,60,Y,Distinction
+BBB,2013J,100450,F,Region_3,No Formal quals,10-20,0-35,0,120,Y,Pass
+CCC,2013J,100451,M,Region_4,A Level or Equivalent,60-70%,0-35,3,30,N,Pass
+AAA,2013J,100452,F,Region_6,HE Qualification,80-90%,0-35,2,60,N,Pass
+DDD,2013J,100453,M,Region_4,A Level or Equivalent,90-100%,0-35,2,60,N,Fail
+DDD,2014B,100454,F,Region_4,A Level or Equivalent,30-40%,35-55,0,60,N,Pass
+AAA,2014J,100455,M,Region_1,Lower Than A Level,60-70%,0-35,3,120,N,Pass
+BBB,2013J,100456,M,Region_2,Post Graduate Qualification,50-60%,0-35,3,60,N,Withdrawn
+AAA,2013J,100457,M,Region_7,Lower Than A Level,50-60%,35-55,3,60,N,Fail
+CCC,2014B,100458,M,Region_2,HE Qualification,90-100%,35-55,2,120,N,Pass
+BBB,2013B,100459,F,Region_7,HE Qualification,40-50%,0-35,2,60,N,Withdrawn
+DDD,2013B,100460,F,Region_1,Post Graduate Qualification,30-40%,0-35,3,60,N,Pass
+DDD,2013B,100461,M,Region_1,Post Graduate Qualification,20-30%,0-35,0,60,Y,Pass
+DDD,2014B,100462,M,Region_1,A Level or Equivalent,80-90%,0-35,0,60,N,Withdrawn
+CCC,2013J,100463,M,Region_1,A Level or Equivalent,10-20,35-55,3,60,N,Pass
+DDD,2013J,100464,F,Region_1,A Level or Equivalent,20-30%,35-55,0,90,N,Fail
+DDD,2013J,100465,M,Region_3,A Level or Equivalent,30-40%,0-35,0,60,N,Fail
+BBB,2013B,100466,F,Region_3,A Level or Equivalent,40-50%,0-35,0,90,N,Distinction
+CCC,2013J,100467,F,Region_2,A Level or Equivalent,10-20,0-35,3,30,N,Fail
+BBB,2014B,100468,F,Region_3,A Level or Equivalent,50-60%,0-35,0,60,N,Pass
+CCC,2013J,100469,F,Region_5,Lower Than A Level,60-70%,35-55,3,60,N,Pass
+DDD,2014J,100470,F,Region_6,HE Qualification,40-50%,0-35,2,90,N,Distinction
+CCC,2014B,100471,M,Region_1,HE Qualification,30-40%,0-35,3,60,N,Withdrawn
+CCC,2014J,100472,M,Region_5,A Level or Equivalent,20-30%,0-35,1,60,Y,Pass
+DDD,2014B,100473,M,Region_5,HE Qualification,60-70%,0-35,2,120,N,Pass
+BBB,2013J,100474,F,Region_3,HE Qualification,60-70%,0-35,0,30,Y,Pass
+CCC,2014J,100475,F,Region_6,A Level or Equivalent,30-40%,35-55,1,60,Y,Distinction
+AAA,2013J,100476,F,Region_6,A Level or Equivalent,40-50%,0-35,3,60,N,Pass
+BBB,2014B,100477,M,Region_3,Lower Than A Level,0-10%,0-35,2,60,N,Pass
+DDD,2014B,100478,M,Region_3,No Formal quals,30-40%,35-55,0,60,N,Withdrawn
+DDD,2014J,100479,M,Region_5,Lower Than A Level,40-50%,0-35,3,120,N,Pass

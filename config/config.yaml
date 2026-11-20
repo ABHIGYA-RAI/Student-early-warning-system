@@ -1,0 +1,93 @@
+project_name: fair_calibrated_dropout
+random_seed: 42
+
+paths:
+  data_dir: data/sample_oulad
+  output_dir: outputs
+
+task:
+  target_label: dropout
+  prediction_horizon_weeks: 6
+  early_window_weeks: 4
+  positive_class_name: withdrawal
+  sensitive_attributes:
+    - gender
+    - disability
+    - age_band
+    - highest_education
+
+split:
+  train_presentations:
+    - 2013B
+    - 2013J
+  valid_presentations:
+    - 2014B
+  test_presentations:
+    - 2014J
+
+features:
+  categorical:
+    - code_module
+    - code_presentation
+    - gender
+    - disability
+    - age_band
+    - highest_education
+    - imd_band
+  numeric:
+    - studied_credits
+    - num_of_prev_attempts
+    - registration_offset
+    - assessment_score_mean
+    - assessment_score_std
+    - assessment_submissions
+    - days_to_first_submission
+    - cumulative_clicks
+    - active_days
+    - distinct_resources
+    - avg_clicks_per_active_day
+    - clicks_week_1
+    - clicks_week_2
+    - clicks_week_3
+    - clicks_week_4
+
+models:
+  logistic:
+    enabled: true
+    C: 1.0
+    max_iter: 400
+  xgboost:
+    enabled: true
+    n_estimators: 120
+    max_depth: 4
+    learning_rate: 0.08
+    subsample: 0.9
+    colsample_bytree: 0.9
+  catboost:
+    enabled: true
+    iterations: 150
+    depth: 5
+    learning_rate: 0.08
+    loss_function: Logloss
+  temporal_transformer:
+    enabled: true
+    epochs: 3
+    batch_size: 32
+    d_model: 32
+    nhead: 4
+    num_layers: 2
+    learning_rate: 0.001
+  survival_logit:
+    enabled: true
+    C: 1.0
+
+fairness:
+  enabled: true
+  reweigh_sensitive_attribute: gender
+  audit_threshold: 0.50
+
+calibration:
+  enabled: true
+  methods:
+    - platt
+    - isotonic

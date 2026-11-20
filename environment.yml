@@ -1,0 +1,15 @@
+name: fair-dropout
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - pyyaml
+  - scikit-learn
+  - matplotlib
+  - xgboost
+  - catboost
+  - pytorch
+  - pyarrow
+  - joblib
