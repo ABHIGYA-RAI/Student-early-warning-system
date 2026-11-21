@@ -1,0 +1,4 @@
+The virtual environment is created and activated.
+Then, the packages are installed from the file requirements.txt
+A smoke test is run which runs the predictions, tables, figures and many more files.
+
