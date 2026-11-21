@@ -4,9 +4,15 @@ A smoke test is run which runs the predictions, tables, figures and many more fi
 
 Now, the real OULAD's 7 CSV files must be stored in the "config.yaml" file.
 
-Therefore, config.yaml is the real OULAD and each function extracted from
+Therefore, config.yaml points to the real OULAD and each function extracted from
 main.py will run on it.
 
 The real OULAD dataset has been split into training, validation and testing set
 for the baseline, temporal transformer and survival-style models.
+
+LR, Cat and XG are all trained on real OULAD.
+
+LR, Cat and XG are now calibrated with two versions each : Isotonic and Platt.
+
+
 
