@@ -1,4 +1,8 @@
 The virtual environment is created and activated.
-Then, the packages are installed from the file requirements.txt
+Then, the packages are installed from the file "requirements.txt".
 A smoke test is run which runs the predictions, tables, figures and many more files.
 
+Now, the real OULAD's 7 CSV files must be stored in the "config.yaml" file.
+
+Therefore, config.yaml is the real OULAD and each function extracted from
+main.py will run on it.
