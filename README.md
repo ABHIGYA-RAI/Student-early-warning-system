@@ -217,6 +217,7 @@ Install them from `requirements.txt`. The code will otherwise skip the unavailab
 ### No real OULAD data
 Use `python main.py smoke` first. This validates the package using the synthetic sample data.
 
+<<<<<<< HEAD
 ## 11. Suggested thesis integration
 
 Use the outputs from:
@@ -228,3 +229,6 @@ Use the outputs from:
 - `outputs/figures/subgroup_fnr_gap.png`
 
 to populate Chapter 4 and the appendices.
+=======
+
+>>>>>>> 9e6a42e268a72f37a2de04215654ba1f73fa6179
