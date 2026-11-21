@@ -2,7 +2,7 @@ project_name: fair_calibrated_dropout
 random_seed: 42
 
 paths:
-  data_dir: data/sample_oulad
+  data_dir: the_real_OULAD
   output_dir: outputs
 
 task:
