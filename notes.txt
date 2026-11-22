@@ -28,5 +28,8 @@ The validation set is used during the development to tune the hyperparameters an
 
 This very testing set will be used to evaluate the non-temporals on C, P and F.
 
+The actual non-temporals are tested on actual OULAD, assessing their C, P and F.
+
+
 
 
