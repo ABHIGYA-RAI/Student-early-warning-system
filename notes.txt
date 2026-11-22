@@ -18,18 +18,6 @@ Uncalibrated LR, Cat and XG are always performing worse than calibrated ones.
 In calibrated ones too, the Platt calibrated are performing better than the Isotonic calibrated ones.
 
 
-Very first thing, I run a smoke test.
-
-Then, I load the real OULAD in config.yaml.
-
-After that, I will be splitting the real OULAD into training set, validation set and testing set.
-
-The validation set is used during the development to tune the hyperparameters and prevent overfitting.
-
-This very testing set will be used to evaluate the non-temporals on C, P and F.
-
-The actual non-temporals are tested on actual OULAD, assessing their C, P and F.
-
 
 
 
