@@ -14,5 +14,10 @@ LR, Cat and XG are all trained on real OULAD.
 
 LR, Cat and XG are now calibrated with two versions each : Isotonic and Platt.
 
+Uncalibrated LR, Cat and XG are always performing worse than calibrated ones.
+In calibrated ones too, the Platt calibrated are performing better than the Isotonic calibrated ones.
+
+
+
 
 
