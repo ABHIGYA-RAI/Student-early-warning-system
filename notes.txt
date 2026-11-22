@@ -22,6 +22,8 @@ Very first thing, I run a smoke test.
 
 Then, I load the real OULAD in config.yaml.
 
+After that, I will be splitting the real OULAD into training set, validation set and testing set.
+
 
 
 
