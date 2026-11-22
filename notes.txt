@@ -18,6 +18,10 @@ Uncalibrated LR, Cat and XG are always performing worse than calibrated ones.
 In calibrated ones too, the Platt calibrated are performing better than the Isotonic calibrated ones.
 
 
+Very first thing, I run a smoke test.
+
+Then, I load the real OULAD in config.yaml.
+
 
 
 
