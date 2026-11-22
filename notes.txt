@@ -26,6 +26,7 @@ After that, I will be splitting the real OULAD into training set, validation set
 
 The validation set is used during the development to tune the hyperparameters and prevent overfitting.
 
+This very testing set will be used to evaluate the non-temporals on C, P and F.
 
 
 
