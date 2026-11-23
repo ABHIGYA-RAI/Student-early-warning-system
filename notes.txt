@@ -29,5 +29,9 @@ Now, the real OULAD starts: running the non-temporal pipeline.
 The content and the students are all the same for all three types of models. It is only
 the way the data has been formatted, to fit with the need of the models, that is different.
 
+Cat, XG and Logistic have been trained on real OULAD.
+
+
+
 
 
