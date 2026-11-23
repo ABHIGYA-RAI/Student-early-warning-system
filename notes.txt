@@ -21,6 +21,8 @@ During smoke testing it has been found that Logistic misses out more dropouts on
 and disablility compared to Cat and XG. XG misses out the least on both even though it misses
 out more between male vs female rather than disabled vs normal dropouts.
 
+Even in AU-ROC, XG(0.78) >Cat(0.77)>Logistic(0.63).
+
 
 
 
