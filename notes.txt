@@ -23,6 +23,8 @@ out more between male vs female rather than disabled vs normal dropouts.
 
 Even in AU-ROC, XG(0.78) >Cat(0.77)>Logistic(0.63).
 
+In calbration, XG does well overall in Isotonic, raw and Platt.
+
 
 
 
