@@ -17,6 +17,9 @@ LR, Cat and XG are now calibrated with two versions each : Isotonic and Platt.
 Uncalibrated LR, Cat and XG are always performing worse than calibrated ones.
 In calibrated ones too, the Platt calibrated are performing better than the Isotonic calibrated ones.
 
+During smoke testing it has been found that Logistic misses out more dropouts on both gender
+and disablility compared to Cat and XG. XG misses out the least on both even though it misses
+out more between male vs female rather than disabled vs normal dropouts.
 
 
 
