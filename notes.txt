@@ -31,6 +31,20 @@ the way the data has been formatted, to fit with the need of the models, that is
 
 Cat, XG and Logistic have been trained on real OULAD.
 
+The calibrators learn how to calibrate by learning from the validation set
+where it can see both model-predicted and actual probabilities.
+Whereas, the testing set will be used after to actually put calibration to use and
+give out the calibrated probabilities.
+
+
+The validation set is used only in the calibrate() whereas the testing set is used
+in the evaluate().
+
+The end-to-end pipeline runs on OULAD for all five models.🎉🎉🎉
+
+Now, the real research and analysis part begins.
+A small step: performance_summary.csv to be analyzed in AUC-ROC.
+This tells if the temporals beat the non-temporals.
 
 
 
