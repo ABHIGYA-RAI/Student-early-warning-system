@@ -23,8 +23,11 @@ out more between male vs female rather than disabled vs normal dropouts.
 
 Even in AU-ROC, XG(0.78) >Cat(0.77)>Logistic(0.63).
 
-In calbration, XG does well overall in Isotonic, raw and Platt.
+In calibration, XG does well overall in Isotonic, raw and Platt.
+Now, the real OULAD starts: running the non-temporal pipeline.
 
+The content and the students are all the same for all three types of models. It is only
+the way the data has been formatted, to fit with the need of the models, that is different.
 
 
 
