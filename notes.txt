@@ -36,10 +36,6 @@ where it can see both model-predicted and actual probabilities.
 Whereas, the testing set will be used after to actually put calibration to use and
 give out the calibrated probabilities.
 
-
-The validation set is used only in the calibrate() whereas the testing set is used
-in the evaluate().
-
 The end-to-end pipeline runs on OULAD for all five models.🎉🎉🎉
 
 Now, the real research and analysis part begins.
@@ -47,5 +43,9 @@ A small step: performance_summary.csv to be analyzed in AUC-ROC.
 This tells if the temporals beat the non-temporals.
 
 
+The five test_predictions file turned out to have different students, therefore the non-temporals
+and temporals got to work on different students making the evaluation unfair.
+
+So, a single test table is to be formed for fair comparison.
 
 
